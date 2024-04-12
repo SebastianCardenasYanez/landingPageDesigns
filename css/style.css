@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    font-style: italic;
 /* }
 .container{
     width: 1300px;
@@ -70,7 +71,7 @@ body{
     justify-content: space-between;
 }
 .article__jump {
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     align-self: flex-end;
     width: 100%;
 
@@ -80,12 +81,16 @@ body{
 .article__jump a{
     color: var(--color-font-primary);
 }
+
 .article__jump h1{
     font-size: 6rem;
 }
 .article__jump p{
+    font-size: 1.5rem;
 }
 .article__jump a{
+    font-size: 1.5rem;
+    bottom: 10rem;
 }
 
 .article__counter {
@@ -95,27 +100,64 @@ body{
 
 }
 .article__item {
+    text-align: right;
 }
-.article__item span,
-.article__item small{
+.counter__item span,
+.counter__item small{
     color: var(--color-font-primary);
+    
 }
-.article__item span{
+
+/* .counter__item span ,
+.counter__item small{
+ color: var(--color-font-primary);
+} */
+
+.counter__item span{
+    font-size: 3rem;
+    
 }
-.article__item small{
+
+
+
+.counter__item small{
+    font-size: 1.5rem;
 }
+
 .section__card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    align-self: center;
+    margin-top: 3% ;
+    margin-left: 3%;
+    border-color: #fff;
 }
 .card__item {
+    height: 30vh;
+    width: 20vw;
+    background-color: rgb(58, 57, 57);
+    border-color: #fff;
+    border-radius: 5%;
+    
 }
 .card__item img,
 .card__item h5,
 .card__item p{
     color: var(--color-font-primary);
+    size: 10rem;
+    padding: 2%;
+    font-size: 1.5rem;
 }
 .card__item img{
 }
 .card__item h5{
+    height: 30%;
+    width: 60%;
+
 }
 .card__item p{
+    height: 100%;
+    width: 60%;
+
 }
