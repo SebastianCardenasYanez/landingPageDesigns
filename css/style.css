@@ -94,7 +94,7 @@ body{
 }
 
 .article__counter {
-    background: olivedrab;
+    /* background: olivedrab; */
     display: inline-block;
     width: 100%;
 
@@ -115,10 +115,20 @@ body{
 
 .counter__item span{
     font-size: 3rem;
+    display: flex;
     
 }
 
+.counter__1{
+    float: right ;
+    padding-right: 90px;
+    padding-top: 100PX ;
+}
 
+.counter__2{
+    padding-top: 55%;
+    padding-left: 250px;
+}
 
 .counter__item small{
     font-size: 1.5rem;
