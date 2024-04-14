@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+body{
+    background-color: #fff;
+}
+
+.container__1{
+    display: flex;
+    margin-top: 1.8%;
+    align-self: flex-start;
+    float: left;
+
+}
+
+.container__2{
+    float: right;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+.container__min{
+    width: 80%;
+    font-size: 16px;
+    padding-top: 10%;
+}
