@@ -1,6 +1,67 @@
 @import url(variables.css);
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url(/storage/font/Poppins-Black.ttf) format(ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    background-color: #2F2F2F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.container__1{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    align-content: center;
+    justify-content: center;
+    padding: 15%;
+}
+
+h2{
+    color:  #6BDFDA;
+    font-size: 65px;
+}
+
+h3{
+    color:  #9AD7F3;
+    font-size: 65px;
+}
+
+h4{
+    color:  #FEC3C7;
+    font-size: 65px;
+}
+
+p{
+    color: #fff;
+    font-size: 18px;
+}
+
+button{
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    border: 0;
+    width: 8vw;
+    height: 5vh
+}
+
+
+
+.container__2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+
+    width: 50%;
+    padding: 1%;
+
 }
