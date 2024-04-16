@@ -1,6 +1,87 @@
 @import url(variables.css);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing:border-box;
 }
+
+body{
+    display: flex;
+    font-family: "Lato-Black";
+}
+
+.container__1{
+    position: absolute; 
+    z-index: 0;
+    width: 100%;
+}
+
+.container__2{
+    display: flex;
+    width: 40%;
+    transform: translate(60%, 90%);
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+    align-items: center;
+    z-index: 5;
+}
+
+.container__2 h2{
+    font-size: 80px;
+}
+
+.container__2 p{
+    font-size: 40px;
+}
+
+button{
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    width: 10vw;
+    height: 6vh;
+    font-size: 20px;
+    border-color: #fff;
+}
+
+
+.container__3{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-content: baseline;
+    justify-content: space-around;
+    color: #fff;
+    padding: 5%;
+    transform: translate(0%, 600%);
+    z-index: 5;
+    background: linear-gradient(to top, black 20%, transparent 80%); 
+}
+
+.container__300 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__300 h4{
+    font-size: 40px;
+}
+
+.container__300 p{
+    font-size: 20px;
+}
+
+.container__4{
+    width: 100%;
+    height: 20%;
+    transform: translate(0%, 665%);
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    z-index: 0;
+}
+
