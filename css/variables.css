@@ -1,3 +1,8 @@
 :root{
     --color-primary: #ff0000;
 }
+
+@font-face {
+    font-family: "Poppins-SemiBlod" ;
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+}
