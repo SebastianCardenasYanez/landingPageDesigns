@@ -4,3 +4,43 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+
+
+.container__1{
+    transform: translate(115%, 60%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 60%;
+    z-index: 5;
+    font-family: "Lato-Regular";
+}
+
+
+.container__1 h2{
+    font-size: 70px;
+}
+
+.container__1 p{
+    font-size: 30px;
+}
+button{
+    width: 8vw;
+    height: 5vh;
+    background-color: #06040A;
+    color: #fff;
+    border-radius: 30px;
+    border: 0;
+    border-color: #06040A;
+    font-family: "Lato-Regular";
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
