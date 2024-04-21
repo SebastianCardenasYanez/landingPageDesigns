@@ -4,3 +4,35 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+.main_text {
+    width: 637px;
+    height: 414px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 182px;
+    height: 66px;
+    background-color: #252525;
+    border: 0;
+    color: #fff;
+    border-color: #252525;
+    border-radius: 30px;
+}
+
+.container__right {
+    width: 547.67px;
+    height: 518.66px;
+    z-index: 0;
+}
+.container__grid {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+
+}
+.content__grid {
+    width: 316px;
+    height: 170px;
+}
