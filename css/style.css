@@ -4,3 +4,113 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+body{
+    background-color: #E8D9D6;
+    font-family: "Poppins-Blod";
+}
+
+.text__main {
+    transform: translate(8%, 65%);
+    width: 574px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    position: absolute;
+}
+
+h2{
+    color: #271908;
+    font-size: 100px;
+}
+
+.text__main p{
+    color: #271908;
+    font-size: 23px;
+}
+
+button{
+    width: 227px;
+    height: 66px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #271908;
+    border: 0;
+    border-color: #271908;
+    border-radius: 40px;
+}
+
+
+.container__main{
+    transform: translate(131.8%);
+    width: 798px;
+    height: 766px;
+}
+
+
+.boba__trans{
+    position: absolute;
+}
+
+.pattern{
+    position: absolute;
+    z-index: 15;
+    transform: translate(170%, 130%);
+}
+
+.fondo__rosa{
+    position: absolute;
+    z-index: 0;
+
+}
+
+.boba{
+    z-index: 10;
+    position: absolute;
+    transform: translate(40%, 5%);
+
+}
+
+.vector__back{
+    z-index: 4;
+    position: absolute;
+    transform: translate(20%, 80%);
+}
+
+.vector__back2{
+    z-index: 4;
+    position: absolute;
+    transform: translate(120%, 60%);   
+}
+
+.grid_main {
+    transform: translate(18%, -5%);
+    display: grid;
+    width: 1310px;
+    height: 195px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    position: absolute;
+}
+.content__grid {
+    display: flex;
+    width: 426px;
+    height: 195px;
+    background-color: #FFFDFC;
+    border-radius: 100px;
+}
+.text__content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h4{
+    font-size: 35px;
+}
+
+.text__content p{
+    font-size: 18px;
+}
