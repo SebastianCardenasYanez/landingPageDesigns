@@ -4,17 +4,32 @@
     margin: 0;
     box-sizing:border-box;
 }
+body{
+    font-family: "Avenir-Heavy";
+}
 
 .main_text {
+    transform: translate(42%, 20%);
+    position: absolute;
     width: 637px;
     height: 414px;
     display: flex;
     flex-direction: column;
 }
 
+.main_text p{
+    font-size: 25px ; 
+}
+
+h2{
+    font-size: 70px;
+}
+
 button{
     width: 182px;
     height: 66px;
+    font-family: "Avenir-Heavy" ;
+    font-size: 25px;
     background-color: #252525;
     border: 0;
     color: #fff;
@@ -23,16 +38,48 @@ button{
 }
 
 .container__right {
+    transform: translate(200%);
+    position: absolute;
     width: 547.67px;
     height: 518.66px;
     z-index: 0;
 }
+
+.foto_1{
+    z-index: 0;
+}
+
+.foto_2{
+    transform: translate(50%, 40%);
+    position: absolute;
+    z-index: 5;
+}
+
 .container__grid {
+    justify-content: space-around;
+    align-items: center;
+    transform: translate(20%, 200%);
+    display: grid;
+    width: 1312px;
+    height: 298px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
+    background-color: #252525;
+    position: absolute;
+    border-radius: 30px;
 
 }
 .content__grid {
     width: 316px;
     height: 170px;
+}
+
+.content__grid p{
+    color: #ffffffe8;
+    font-size: 20px;
+}
+
+h5{
+    font-size: 30px;
+    color: #ffffffce;
 }
