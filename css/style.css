@@ -7,7 +7,29 @@
 
 
 .text_main {
+    display: flex;
+    position: absolute;
+    width: 556px;
+    height: 430px;
 }
+button{
+    width: 222px;
+    height: 66px;
+    color: #fff;
+    background-color: #333333;
+    border: 0;
+    border-radius: 40px;
+    border-color: #333333;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.text_main p{
+    font-size: 32px;
+}
+
 .right__grid {
 }
 .content__grid_right {
