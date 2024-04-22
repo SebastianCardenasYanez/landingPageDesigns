@@ -6,9 +6,93 @@
 }
 
 
+.yellow__background {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
 
+.main__text {
+    z-index: 5;
+    transform: translate(20%, 50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 418px;
+    color: #fff;
+}
+
+.main__text p{
+    font-family: "Lato-R";   
+    font-size: 24px;
+}
+
+h2{
+    font-family: "Lato-B";
+    font-size: 80px;
+}
 
 button{
+    width: 291px;
+    height: 66px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 40px;
+    font-family: "Lato-R";
     color: #fff;
     background-color: #7EB5E1;
+}
+
+
+.dog__main {
+    transform: translate(150%, 15%);
+    position: absolute;
+    z-index: 10;
+}
+.dog__asterisk {
+    transform: translate(620%, 290%);
+    position: absolute;
+    z-index: 9;
+}
+.footprint__back_right {
+    transform: translate(300%, 0%);
+    position: absolute;
+    z-index: 3;
+}
+.footprint__back_left {
+    transform: translate(50%, 90%);
+    position: absolute;
+    z-index: 3;
+}
+.font__path {
+    transform: translate(400%, 40%);
+    position: absolute;
+    z-index: 2;
+}
+
+
+.grid__bottom {
+    transform: translate(10%, 510%);
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    width: 1190px;
+    height: 156px;
+    background-color: #EFEEEE;
+    border-radius: 24px ;
+}
+.content__grid {
+    display: flex;
+    width: 318px;
+    height: 76px;
+}
+.grid__text {
+    font-family: "Lato-R";
+    display: flex;
+    flex-direction: column;
 }
