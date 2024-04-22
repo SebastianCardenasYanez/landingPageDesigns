@@ -1,3 +1,18 @@
 :root{
     --color-primary: #ff0000;
 }
+
+@font-face {
+    font-family: "WorkSans-Blod";
+    src: url(../storage/font/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/WorkSans-Regular.ttf);
+}
