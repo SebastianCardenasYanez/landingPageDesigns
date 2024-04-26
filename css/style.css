@@ -1,8 +1,5 @@
 @import url(variables.css);
-@font-face {
-    font-family: 'Poppins-Black';
-    src: url(/storage/font/Poppins-Black.ttf) format(ttf);
-}
+
 *{
     padding: 0;
     margin: 0;
@@ -12,45 +9,50 @@
 body{
     display: flex;
     background-color: #2F2F2F;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 5%;
 }
 
 .container__1{
     display: flex;
     flex-direction: column;
-    width: 49%;
-    align-content: center;
+    width: 449px;
+    height: 582px;
     justify-content: center;
-    padding: 15%;
+    transform: translate(0%, 18%);
 }
 
 h2{
     color:  #6BDFDA;
     font-size: 65px;
+    font-family: "Poppins-Blod";
 }
 
 h3{
     color:  #9AD7F3;
     font-size: 65px;
+    font-family: "Poppins-Blod";
 }
 
 h4{
     color:  #FEC3C7;
     font-size: 65px;
+    font-family: "Poppins-Blod";
 }
 
 p{
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "Poppins-Regular";
 }
 
 button{
     background-color: #fff;
     color: #000;
-    border-radius: 50px;
+    border-radius: 36px;
     border: 0;
-    width: 8vw;
-    height: 5vh
+    width: 182px;
+    height: 66px;
+    font-size: 24px;
 }
 
 
@@ -59,9 +61,7 @@ button{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
-    align-items: center;
-
-    width: 50%;
-    padding: 1%;
-
+    align-items: stretch;
+    margin-left: 5%;
+    gap: 10px;
 }
