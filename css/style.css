@@ -6,83 +6,102 @@
 }
 
 body{
-
-    background-color: #09212C;
-
+    background-image: linear-gradient( to top, #043E49, #09212C);
+    font-family: "avenir";
 }
 
 .container__1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    transform: translate(25%, 25%);
-    border-radius: 50px;
+    border-radius: 24px;
+    background-color: #09212c56;
+    backdrop-filter: blur(5px);
+    margin-top: 10%;
+    width: 724px;
+    height: 518px;
+    margin-left: 15%;
+    z-index: 10;
+}
+
+.container__text{
+    width: 612px;
+    height: 438px;
     display: flex;
     align-self: center;
     color: #fff;
     flex-direction: column;
-    background-color: #09212c56;
-    margin-top: 20%;
-    width: 40%;
-    height: 45%;
-    padding: 3%;
-    margin: 4%;
-    z-index: 10;
+}
+
+.container__text img{
+    width: 80px;
+    height: 16px;
 }
 
 h2{
-    font-size: 60px;
-    width: 100%;
+    font-size: 64px;
 }
 
-
+.container__text p{
+    font-size: 26px;
+}
 
 button{
     background-color: #63E1E1;
     border: 0;
-    border-radius: 50px;
-    width: 6vw;
-    height: 4vh;
+    border-radius: 36px;
+    width: 182px;
+    height: 66px;
+    font-size: 24px;
+    box-shadow: 1px 0 4px 2px #63E1E1;
 }
 .container__image{
-    width: 52%;
+    width: 61%;
     float: right;
     z-index: 1;
+
 }
 
 .container__image img{
     width: 100%;
 }
 .container__2{
-
-    float: inline-end;
-    width: 80%;
-    height: 20%;
-    transform: translate(10%, 350%);
+    width: 1312px;
+    height: 171px;
+    transform: translate(20%, 500%);
     position: absolute;
+    border-radius: 32px;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
     z-index: 5;
+    justify-content: space-around;
+    align-items: center;
     background-color: #09212c56;
-    border-color: #fff;
-    color: #fff ;
+    border: 1px solid #fff;
+    backdrop-filter: blur(5px);
 }
 
 .cont__min{
-    align-items: left;
+    width: 231px;
+    height: 123px;
+    color: #fff ;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
 }
 
 .cont__min p{
-    width: 80%;
-    height: 20%;
+    font-size: 18px;
 }
 
 h5{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .cont__min img{
-
-    width: 100%;
-    height: 10%;
+    width: 24px;
+    height: 24px;
 }
