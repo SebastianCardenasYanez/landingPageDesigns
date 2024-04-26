@@ -3,57 +3,49 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    font-family: "avenir";
+}
+
+body{
+    padding: 2%;
 }
 
 .container__1{
-    padding-left: 5%;
-    margin-top: 3%;
-    width: 50%;
-    height: 100%;
+    width: 833px;
+    height: 176px;
     font-size: 50px;
+    margin-bottom: 5%;
+    color: #252525;
 }
 
 .container__main{
-    width: 100%;
-    height: 20vh;
+    width: 1312px;
+    height: 559px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
-
 }
 
-.container__2{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 2%;
-    margin-top: 3%;
-}
 
 h4{
-    color: #2525254f;
+    color: #252525;
+    opacity: 35%;
+    font-size: 40px;
 }
 
 .container__min{
-    width: 23vw;
-    height: 20vh;
-    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 133px;
     /* background-color: brown; */
 }
 
-.container__3{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 1%;
+p{
+    font-size: 24px;
+    color: #252525;
+    opacity: 80%;
 }
+
 
 
