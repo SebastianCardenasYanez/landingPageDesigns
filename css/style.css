@@ -5,7 +5,10 @@
     box-sizing:border-box;
 }
 
+
+
 body{
+    font-family: "avenir" ;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
@@ -32,11 +35,12 @@ h2{
 }
 
 button{
-    width: 20%;
-    height: 4vh;
+    width: 157px;
+    height: 50px;
+    font-size: 15px;
     background-color: black;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 16px;
     border-color: black;
     border: 0;
 }
