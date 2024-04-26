@@ -10,9 +10,11 @@ body{
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto;
     gap: 5px;
+    font-family: "avenir" ;
 }
 
 .container__1{
+    transform: translate(10%);
     width: 100%;
     height: 100%;
     padding-top: 4%;
@@ -26,7 +28,8 @@ body{
 }
 
 .container__2{
-    padding-left: 40%;
+    transform: translate(-10%);
+    padding-left: 25%;
     padding-top: 4%;
     font-size: 18px;
     width: 67%;
@@ -36,6 +39,12 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     margin-bottom: 4%;
+
+}
+
+.container__2 p{
+    color: #252525;
+    opacity: 80%;
 }
 
 .container__3{
@@ -53,7 +62,7 @@ body{
     text-align: center;
     width: 10vw;
     height: 5vh;
-    border-radius: 30px;
+    border-radius: 16px;
     background-color: #252525;
     border: 0;
     color: white;
